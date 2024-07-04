@@ -42,5 +42,5 @@ document.getElementById('percentage-form3').addEventListener('submit', function(
 
     const percentageValue2 = (100 * percentage3) / total3;
     const result3 = percentageValue2;
-    document.getElementById('result-oc').textContent = `Si tienes ${percentage3} PODS ocupados de ${total3}, el porcentage de ocupación es ${result3}%`;
+    document.getElementById('result-oc').textContent = `Si tienes ${percentage3} PODS ocupados de ${total3}, el porcentaje de ocupación es ${result3}%`;
 });
