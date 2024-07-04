@@ -29,15 +29,29 @@
         <div class="container">
             <h2>Resta el porcentaje de un total</h2>
             <form id="percentage-form2">
-                <label for="total">Cantidad Total:</label>
+                <label for="total-rest">Cantidad Total:</label>
                 <input type="number" id="total-rest" name="total" required>
                 
-                <label for="percentage">Porcentaje:</label>
+                <label for="percentage-rest">Porcentaje:</label>
                 <input type="number" id="percentage-rest" name="percentage" required>
                 
                 <button type="submit">Calcular</button>
             </form>
             <div id="result-rest" class="result"></div>
+        </div>
+
+        <div class="container">
+            <h2>Porcentaje de ocupación</h2>
+            <form id="percentage-form3">
+                <label for="total-oc">Cantidad total de PODS:</label>
+                <input type="number" id="total-oc" name="total" required>
+                
+                <label for="percentage-oc">PODS ocupados:</label>
+                <input type="number" id="percentage-oc" name="percentage" required>
+                
+                <button type="submit">Calcular</button>
+            </form>
+            <div id="result-oc" class="result"></div>
         </div>
     </section>
     
