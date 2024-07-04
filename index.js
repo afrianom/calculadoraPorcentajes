@@ -26,7 +26,7 @@ document.getElementById('percentage-form2').addEventListener('submit', function(
 
     const percentageValue = (total2 * percentage2) / 100;
     const result2 = total2 - percentageValue;
-    document.getElementById('result-rest').textContent = `El total después de restar el ${percentage2}% de ${total2} es ${result2}`;
+    document.getElementById('result-rest').textContent = `El total después de restar el ${percentage2}% a ${total2} es ${result2}`;
 });
 
 document.getElementById('percentage-form3').addEventListener('submit', function(event) {
