@@ -7,16 +7,32 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #ededed;
-    color: black;
+    background-color: #83d4db;
+    color: #EBF4F6;
+    width: 100%;
 }
 
 h1 {
-    color: black;
+    color: #EBF4F6;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-app {
+    background-image: linear-gradient(45deg, #088395 -25%, #071952 25%, #088395 75%);
+    background-size: 300%;
+    background-position: 85% 0%;
+    padding: 10px 25px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 15px auto;  
 }
 
 .container {
-    background-color: #6971a4;
+    background-image: linear-gradient(45deg, #088395 -25%, #071952 25%, #088395 75%);
+    background-size: 300%;
+    background-position: 85% 0%;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
@@ -46,7 +62,7 @@ input {
 
 button {
     padding: 10px;
-    background-color: #9B86BD;
+    background-color: #37B7C3;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -54,7 +70,7 @@ button {
 }
 
 button:hover {
-    background-color: #7776B3;
+    background-color: #088395;
 }
 
 .result {
@@ -72,16 +88,47 @@ input[type=number]::-webkit-inner-spin-button {
 @media (max-width: 400px) {
     #section-percentages {
         flex-direction: column;
-        scale: 80%;
-        transform: translate(0px, -120px);
+        /* scale: 80%;
+        transform: translate(0px, -120px); */
+        width: 100%;
+        gap: 15px;
+        padding: 10px;
     }
     body {
         display: flex;
         justify-content: center;
         text-align: center;
         height: 100%;
+        width: 100%;
+        background-color: #569198;
     }
     h1 {
         display: flex;
+        font-size: 24px;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    h2 {
+        margin: 0;
+    }
+
+    .container {
+        /* width: 100%; */
+        border-radius: 0px;
+        padding: 10px 10px;
+    }
+
+    .titulo-app {
+        border-radius: 0px;
+        width: 100%;
+        margin: 0;
+        margin-top: 15px;
+        padding: 10px 0;
+    }
+
+    form {
+        gap: 5px;
     }
 }
